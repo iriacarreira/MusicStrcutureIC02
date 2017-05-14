@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link topAlbums}
+                // Create a new intent to open the {@link topSongs}
                 Intent numbersIntent = new Intent(MainActivity.this, TopSongsActivity.class);
 
                 // Start the new activity

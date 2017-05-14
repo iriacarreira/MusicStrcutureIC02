@@ -20,7 +20,7 @@ public class TopSongsActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_songs);
 
-        // Find the View that shows the news category
+        // Find the View that shows the top songs and takes you to the number 1 song
         TextView topSongs = (TextView) findViewById(play_song);
 
         // Set a click listener on that View
@@ -30,7 +30,7 @@ public class TopSongsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopSongsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -38,7 +38,7 @@ public class TopSongsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top songs and takes you to the number 2 song
         TextView topSongs2 = (TextView) findViewById(play_song2);
 
         // Set a click listener on that View
@@ -48,7 +48,7 @@ public class TopSongsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopSongsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -56,7 +56,7 @@ public class TopSongsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top songs and takes you to the number 3 song
         TextView topSongs3 = (TextView) findViewById(play_song3);
 
         // Set a click listener on that View
@@ -66,7 +66,7 @@ public class TopSongsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopSongsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -74,7 +74,7 @@ public class TopSongsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top songs and takes you to the number 4 song
         TextView topSongs4 = (TextView) findViewById(play_song4);
 
         // Set a click listener on that View
@@ -84,7 +84,7 @@ public class TopSongsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopSongsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -92,7 +92,7 @@ public class TopSongsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top songs and takes you to the number 5 song
         TextView topSongs5 = (TextView) findViewById(play_song5);
 
         // Set a click listener on that View
@@ -102,7 +102,7 @@ public class TopSongsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopSongsActivity.this, PlayingActivity.class);
 
                 // Start the new activity

@@ -22,7 +22,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
 
 
-        // Find the View that shows the news category
+        // Find the View that shows the top albums and takes you to the number 1 album
         TextView topAlbums = (TextView) findViewById(play_album);
 
         // Set a click listener on that View
@@ -32,7 +32,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopAlbumsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -40,7 +40,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
             }
         });
 
-// Find the View that shows the news category
+        // Find the View that shows the top albums and takes you to the number 2 album
         TextView topAlbums2 = (TextView) findViewById(play_album2);
 
         // Set a click listener on that View
@@ -50,7 +50,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopAlbumsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -58,7 +58,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top albums and takes you to the number 3 album
         TextView topAlbums3 = (TextView) findViewById(play_album3);
 
         // Set a click listener on that View
@@ -68,7 +68,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopAlbumsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -76,7 +76,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top albums and takes you to the number 4 album
         TextView topAlbums4 = (TextView) findViewById(play_album4);
 
         // Set a click listener on that View
@@ -86,7 +86,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopAlbumsActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -94,7 +94,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top albums and takes you to the number 5 album
         TextView topAlbums5 = (TextView) findViewById(play_album5);
 
         // Set a click listener on that View
@@ -104,7 +104,7 @@ public class TopAlbumsActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopAlbumsActivity.this, PlayingActivity.class);
 
                 // Start the new activity

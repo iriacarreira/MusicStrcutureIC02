@@ -20,7 +20,7 @@ public class TopArtistActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_top_artist);
 
-        // Find the View that shows the news category
+        // Find the View that shows the top artist and takes you to the number 1 artist
         TextView topArtist = (TextView) findViewById(play_artist);
 
         // Set a click listener on that View
@@ -30,7 +30,7 @@ public class TopArtistActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopArtistActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -38,7 +38,7 @@ public class TopArtistActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top artist and takes you to the number 2 artist
         TextView topArtist2 = (TextView) findViewById(play_artist2);
 
         // Set a click listener on that View
@@ -48,7 +48,7 @@ public class TopArtistActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopArtistActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -56,7 +56,7 @@ public class TopArtistActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top artist and takes you to the number 3 artist
         TextView topArtist3 = (TextView) findViewById(play_artist3);
 
         // Set a click listener on that View
@@ -66,7 +66,7 @@ public class TopArtistActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopArtistActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -74,7 +74,7 @@ public class TopArtistActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top artist and takes you to the number 4 artist
         TextView topArtist4 = (TextView) findViewById(play_artist4);
 
         // Set a click listener on that View
@@ -84,7 +84,7 @@ public class TopArtistActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopArtistActivity.this, PlayingActivity.class);
 
                 // Start the new activity
@@ -92,7 +92,7 @@ public class TopArtistActivity extends AppCompatActivity {
             }
         });
 
-        // Find the View that shows the news category
+        // Find the View that shows the top artist and takes you to the number 5 artist
         TextView topArtist5 = (TextView) findViewById(play_artist5);
 
         // Set a click listener on that View
@@ -102,7 +102,7 @@ public class TopArtistActivity extends AppCompatActivity {
 
             @Override
             public void onClick(View view) {
-                // Create a new intent to open the {@link NewsOneActivity}
+                // Create a new intent to open the {@link MusicPlayer/PlayingActivity}
                 Intent numbersIntent = new Intent(TopArtistActivity.this, PlayingActivity.class);
 
                 // Start the new activity

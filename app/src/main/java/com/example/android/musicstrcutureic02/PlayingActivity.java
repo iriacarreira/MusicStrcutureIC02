@@ -5,6 +5,8 @@ import android.os.Bundle;
 
 public class PlayingActivity extends AppCompatActivity {
 
+    //Music player
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
