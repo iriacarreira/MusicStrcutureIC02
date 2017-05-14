@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="textSize">20sp</dimen>
+    <dimen name="lineSize">1dp</dimen>
+    <dimen name="space_size">16dp</dimen>
+    <dimen name="margin_1">12dp</dimen>
+    <dimen name="height_small_button">56dp</dimen>
+    <dimen name="width_big_news">142dp</dimen>
+    <dimen name="news_icon">200dp</dimen>
+    <dimen name="song_icon">200dp</dimen>
+
+</resources>

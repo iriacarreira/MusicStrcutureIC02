@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">MusicStrcutureIC02</string>
+    <string name="top_artist">EXPLANATION: This are the top Artist of this week in the IC Music App. Our listeners have listening to this 5 songs more than any other for the last 7 days</string>
+    <string name="artist_list">Top #nu - Artist Name</string>
+    <string name="album_list">Top #nu - Album name</string>
+    <string name="song_list">Top #nu - Song name</string>
+    <string name="main_news">New artist comes out with a new album</string>
+    <string name="explanation_news">EXPLANATION: Here it explain the news and the body of all the information i.e.: New album came out the 17th of March afters launching the new single at the beggining of the year, this was a really expected and second album of the band</string>
+<string name="title">Eating Hooks</string>
+    <string name="artist">Moderat</string>
+    <string name="explanation_main">EXPLANATION: The main screen gives access to the latest news about music. On the top right the user can directly access to the TOP 5 artist, TOP 5 albums and TOP 5 songs of the week  </string>
+    <string name="explanation_player">EXPLANATION: This screen is the main music player activity displaying album cover and a media player</string>
+</resources>

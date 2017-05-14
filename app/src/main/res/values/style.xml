@@ -1,0 +1,60 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <style name="TextRegular">
+        <item name="color">@color/textMain</item>
+    </style>
+
+    <style name="news_top">
+
+        <item name="android:layout_width">@dimen/width_big_news</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/space_size</item>
+        <item name="android:layout_gravity">bottom</item>
+        <item name="android:drawableTop">@drawable/news</item>
+        <item name="android:text">@string/main_news</item>
+        <item name="android:textColor">@color/textMain</item>
+    </style>
+
+    <style name="explanation">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_margin">@dimen/space_size</item>
+        <item name="android:textColor">@color/textMain</item>
+
+    </style>
+
+    <style name="news_main">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/textMain</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/margin_1</item>
+
+    </style>
+    <style name="title">
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:textColor">@color/textMain</item>
+        <item name="android:textSize">@dimen/textSize</item>
+        <item name="android:layout_gravity">center</item>
+        <item name="android:layout_margin">@dimen/space_size</item>
+
+    </style>
+<style name="list_text">
+    <item name="android:layout_width">match_parent</item>
+    <item name="android:layout_height">wrap_content</item>
+    <item name="android:gravity">center_vertical</item>
+    <item name="android:textColor">@color/textMain</item>
+    <item name="android:textSize">@dimen/textSize</item>
+
+</style>
+</resources>

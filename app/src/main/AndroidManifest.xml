@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.android.musicstrcutureic02">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity"
+            android:label="Music App">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".TopAlbumsActivity"
+            android:label="Top Albums"/>
+        <activity android:name=".TopArtistActivity"
+            android:label="Top Artist"/>
+        <activity android:name=".TopSongsActivity"
+            android:label="Top Songs"/>
+        <activity
+            android:name=".NewsOneActivity"
+            android:label="News" />
+        <activity android:name=".PlayingActivity"
+            android:label="Now Playing"></activity>
+    </application>
+
+</manifest>
