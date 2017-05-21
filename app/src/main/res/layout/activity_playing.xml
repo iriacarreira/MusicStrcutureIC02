@@ -3,18 +3,18 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
     android:background="@color/colorPrimary"
+    android:orientation="vertical"
     tools:context="com.example.android.musicstrcutureic02.PlayingActivity">
 
 
     <ImageView
-        android:layout_weight="1"
         android:layout_width="@dimen/song_icon"
         android:layout_height="@dimen/song_icon"
-        android:src="@drawable/music"
+        android:layout_gravity="center"
+        android:layout_weight="1"
         android:scaleType="fitCenter"
-        android:layout_gravity="center"/>
+        android:src="@drawable/music" />
 
     <TextView
         android:id="@+id/player"
@@ -26,43 +26,45 @@
     <TextView
         style="@style/title"
 
-        android:text="@string/artist"
-
         android:layout_weight="1"
 
+        android:text="@string/artist"
+
         />
-<LinearLayout
-    android:layout_width="wrap_content"
-    android:layout_height="wrap_content"
-    android:orientation="horizontal"
-    android:layout_gravity="center"
-    android:layout_weight="1"
-    >
-    <ImageButton
+
+    <LinearLayout
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:src="@drawable/rewind"/>
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/pause"/>
+        android:layout_gravity="center"
+        android:layout_weight="1"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/rewind" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/pause" />
 
 
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/play"/>
-    <ImageButton
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:src="@drawable/forward"/>
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/play" />
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/forward" />
 
 
-</LinearLayout>
+    </LinearLayout>
+
     <TextView
         style="@style/explanation"
-
-        android:text="@string/explanation_player"
-        />
+        android:text="@string/explanation_player" />
 
 </LinearLayout>
