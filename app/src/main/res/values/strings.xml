@@ -5,7 +5,7 @@
     <string name="album_list">Top #nu - Album name</string>
     <string name="song_list">Top #nu - Song name</string>
     <string name="main_news">New artist comes out with a new album</string>
-    <string name="explanation_news">EXPLANATION: Here it explain the news and the body of all the information i.e.: New album came out the 17th of March afters launching the new single at the beggining of the year, this was a really expected and second album of the band</string>
+    <string name="explanation_news">EXPLANATION: Here it explain the news and the body of all the information i.e.: New album came out the 17th of March afters launching the new single at the beggining of the year, this was a really expected and second album of the band. This will be pull as a longer version of the RSS feed</string>
 <string name="title">Eating Hooks</string>
     <string name="artist">Moderat</string>
     <string name="explanation_main">EXPLANATION: The main screen gives access to the latest news about music. On the top right the user can directly access to the TOP 5 artist, TOP 5 albums and TOP 5 songs of the week. The news will be added by an RSS feed class </string>
